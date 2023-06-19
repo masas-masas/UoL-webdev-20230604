@@ -199,16 +199,80 @@ article img {
   height: auto;
 }
 footer {
-  background: #edc5ff;
-  max-width: 1000px;
-  margin: auto;
-  clear: both;
-  text-align: right;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 100%;
+  background-color: #2DC6D6;
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:  40px;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+
+.footer-nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+
+.footer-terms-nav-group {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.footer-terms-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.footer-terms-nav-group > a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-terms-nav-group > a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+.footer-nav-group > a {
+  color: rgb(219, 221, 226);
+  text-decoration: none;
+}
+
+.footer-wrapper {
+  width: 70%;
+}
+
+
+.footer-social {
+  margin-left: auto;
+}
+
+.footer-social-title {
+  margin-bottom: 10px;
+}
+
 footer p {
   padding: 20px;
 }
