@@ -1,301 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Fair/Cultural Fair</title>
-    <meta
-      name="description"
-      content="This page is a main entry for Amusiland visitors. 
-    Book events in our theme park."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name ="description" content="The official website of global theme park.">
+        <meta name ="author" content ="Group web development uol">
+        <link rel="shortcut icon" type="image/png" href="img/logo_global.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>Global Theme Park</title>
+    </head>
+    <body>
+        <header class="header">
+<!--            <div class="header__text-box">-->
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main">Global Theme Park</span>
+                    <span class="heading-primary-sub">Experience the world!</span>
+                </h1>
+                    <a href="#" class="btn btn-heading btn-animated ">Begin your journey</a>
 
-    <link rel="stylesheet" href="assets/css/shared.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-   
-  </head>
+<!--            </div>-->
+            <nav class="nav">
+                <ul>
+                    <li><a class="nav_link  selected_nav_link" href="index.html">Home</a></li>
+                    <li><a class="nav_link" href="PlanYourTrip.html">link2</a></li>
+                    <li><a class="nav_link " href="AboutUs.html">link3</a></li>
 
-  <body>
-    <header>
-
-      <!-- https://mahonpro-my.sharepoint.com/:w:/g/personal/pete_mahon_pro/EZPqW8l5EKBGpm70vGVvt2oByhdFVfRnAXIqqy7ONEQxkw?e=Hb7SMn -->
-      
-      <div id="header-wrapper">
-
-        <div id="header-content">
-          
-          <div id="header-logo">
-            <img height="50" width="50" src="./assets/images/main/costume.svg" alt="">
-          </div>
-
-          <div id="header-introduction">
-            World Fair Theme Park
-          </div>
-
-          <div id="header-action">
-            <a href="javascript:void(0)"><i class="fa-solid fa-ticket"></i> Booking</a>
-          </div>
-
-        </div>
-
-      </div>
+                </ul>
+            </nav>
+        </header>
 
 
+        <main>
 
-    </header>
+
+            <!--This is the main section of the website we called it "content" but a more appropriate name would be "cards"-->
+            <section class="content-section">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary u-margin-bottom-medium">ENJOY OUR RIDES!</h2>
+                </div>
+
+                <!-- This is the container of all the cards -->
+
+                <ul class="content__container">
+                    <!-- This is an individual card highlighting Aurora Park's hotels and resorts -->
+                    <li class="content__card">
+                        <img src="img/boat3.jpg"  alt="One of our hotels" class="content__img" />
+
+                        <div class="content__text">
+                            <h1 class="content__title">Entertainment For Everyone.</h1>
+                            <div class="content__caption">
+                                Fancy a boat ride on a canal, or maybe you fancy bungee jumping from the eiffel tower, or
+                                you want to see one of a kind fountain show, we have something for all.
+                            </div>
+                            <a href="./Pages/rides.html" class=" btn btn-readMore ">Read More!</a>
+                        </div>
+                    </li>
+                    <!-- This is an individual card highlighting Aurora Park's shows and parades -->
+                    <li class="content__card">
+
+                        <img src="img/food_cart.jpg" alt="One of our many shows" class="content__img" />
+                        <div class="content__text">
+                            <h1 class="content__title">Experience Food From Around The Globe.</h1>
+                            <div class="content__caption">
+                                Fancy a pizza from Naples, or a cheese and steak sandwich from philly,
+                                or just an authentic arabic shawarma,we have it all.
+                            </div>
+                            <a href="./Pages/rides.html" class=" btn btn-readMore">Read More!</a>
+                        </div>
+                    </li>
+                    <!-- This is an individual card highlighting Aurora Park's longest rollercoaster in California -->
+                    <li class="content__card">
+                        <img src="img/merchandise3.jpg" alt="A roller coaster" class="content__img" />
+                        <div class="content__text">
+                            <h1 class="content__title">Merchandise From Around The World.</h1>
+                            <div class="content__caption">
+                                Want to buy amulets from Egypt, or Kaptaan Chappal from Pakistan, maybe kimono dresses
+                                are your thing, we have it all.
+                            </div>
+                            <a href="./Pages/rides.html" class=" btn btn-readMore">Read More!</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="discount-section">
+                <div class="u-center-text">
+                    <h2 class="heading-secondary u-margin-bottom-medium">Discounts for Everyone!</h2>
+                </div>
+
+                <div class="rides-container">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                             <div class="card__picture card__picture--1">
+                                 &nbsp;
+                             </div>
+
+<!--                             <h4 class="card__heading">-->
+<!--                                 <span class="card__heading-span card__heading-span&#45;&#45;1">The Dragon Chase!</span>-->
+<!--                             </h4>-->
+<!--                             <div class="card__details">-->
+<!--                                 <ul>-->
+<!--                                     <li>30 minute ride</li>-->
+<!--                                     <li>Up to 6 people</li>-->
+<!--                                     <li>Suitable for all ages</li>-->
+<!--                                 </ul>-->
+<!--                             </div>-->
+
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                             <div class="card__cta">
+                                 <div class="card__price-box">
+                                     <p class="card__price-only">Starting from</p>
+                                     <p class="card__price-value">£15.00</p>
+                                 </div>
+                                 <a href="#popup" class="btn btn-white">Buy now</a>
+                             </div>
+                         </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+<!--                            <h4 class="card__heading">-->
+<!--                                <span class="card__heading-span card__heading-span&#45;&#45;2">The Wall of Ice!</span>-->
+<!--                            </h4>-->
+<!--                            <div class="card__details">-->
+<!--                                <ul>-->
+<!--                                    <li>120 minute ride</li>-->
+<!--                                     <li>Up to 12 people</li>-->
+<!--                                     <li>Suitable for teens</li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Starting from</p>
+                                    <p class="card__price-value">£10.00</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+<!--                            <h4 class="card__heading">-->
+<!--                                <span class="card__heading-span card__heading-span&#45;&#45;3">The Sea Explorer!</span>-->
+                            </h4>
+<!--                            <div lass="card__details">-->
+<!--                                <ul>-->
+<!--                                    <li>90 minute ride</li>-->
+<!--                                    <li>Up to 16 people</li>-->
+<!--                                    <li>Suitable for all ages</li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Starting From</p>
+                                    <p class="card__price-value">£30.00</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--                <div class="u-center-text u-margin-bottom-large u-margin-top-large">-->
+<!--                    <a href="#" class="btn btn-black">Discover all activities</a>-->
+<!--                </div>-->
+
+
+
+
+                </div>
+            
+            
+            
+            </section><!--end of .section-rides-->
+
+
+
+
+        </main>
+
+        <footer class = "site-footer">
+            
+            <div id="footer-columnleft" class ="site-footer">
+                <h3>Website Links</h3>
+                <div class="table">
+                <ul class="footer-list">
+                    <li><a href="PlanYourTrip.html">Home </a></li>
+                    <li><a href="PlanYourTrip.html">Plan Your Trip </a></li>
+                    <li><a href="AboutUs.html">About Us </a></li>
+                </ul>
+                </div>
+            </div>   
+           
+            
+            <div id="footer-columnright">
+
+                <h3>Our Social Media Links</h3>
+                <!--we have no real links to pages these are just exmaples that go to the home pages of the websites-->
+                <div class="table">
+                    
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-instagram fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-youtube-play fa-stack-1x"></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                            <i class="fa fa-linkedin fa-stack-1x"></i>
+                        </span>
+                    </a>
+
+
+
+
+
+                </div>
+            </div>
+            <address>
+                <p><i class="fa fa-map-marker"></i> Address: Senate House, Malet St, Bloomsbury, London WC1E 7HU, United Kingdom</p>
+                <p><i class="fa fa-phone"></i> Phone Number: +92 (0)231 3443 8360</p>
+            </address>
     
-    <div id="body">
-      <div id="body-wrapper">
-      <div id="nav-wrapper">
-
-        <div class="nav-item">
-          <a href=""><i class="fa-regular fa-circle-question"></i> About</a>
-        </div>
-
-        <div class="nav-item">
-          <a href=""><i class="fa-regular fa-heart"></i> Attractions</a>
-        </div>
-      
-
-        <div class="nav-item">
-          <a href=""><i class="fa-solid fa-tag"></i> Pricing</a>
-        </div>
-
-        <div class="nav-item">
-          <a href=""><i class="fa-regular fa-map"></i> Map</a>
-        </div>
-
-        <div class="nav-item">
-          <a href=""><i class="fa-solid fa-bed"></i> Hotel</a>
-        </div>
+        </footer>
         
-      </div>
-      <div id="middle-wrapper">
-        <div id="image-body">
-          <img id="nav-image-0" src="./assets/images/main/jumbotron/paycheck_lmao.jpg" alt="">
-          <img id="nav-image-1" style="display: none" src="assets/images/main/events/concert-audience-stage-performance.jpg" alt="">
-          <img id="nav-image-2" style="display: none" src="assets/images/main/events/boston-skyline-fireworks.jpg" alt="">
-          <img id="nav-image-3" style="display: none" src="assets/images/main/events/event-reff.jpg" alt="">
-          <div id="image-nav">
-            <div id="nav-item-0" class="image-nav-item"></div>
-            <div id="nav-item-1" class="image-nav-item"></div>
-            <div id="nav-item-2" class="image-nav-item"></div>
-            <div id="nav-item-3" class="image-nav-item"></div>
-          </div>
-          <div id="image-data">
-            <div id="data-item-0" class="image-data-item">
-              <h4>The Massive Wheel</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam in harum illo eius culpa, consectetur cum eos ratione aut, est mollitia. In quisquam quia officia hic ab neque sequi.
-              </p>
-            </div>
-            <div style="display: none" id="data-item-1" class="image-data-item">
-              <h4>The Massive Wheel 1</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam in harum illo eius culpa, consectetur cum eos ratione aut, est mollitia. In quisquam quia officia hic ab neque sequi.
-              </p>
-            </div>
-            <div style="display: none" id="data-item-2" class="image-data-item">
-              <h4>The Massive Wheel 2</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam in harum illo eius culpa, consectetur cum eos ratione aut, est mollitia. In quisquam quia officia hic ab neque sequi.
-              </p>
-            </div>
-            <div style="display: none" id="data-item-3" class="image-data-item">
-              <h4>The Massive Wheel 3</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nam in harum illo eius culpa, consectetur cum eos ratione aut, est mollitia. In quisquam quia officia hic ab neque sequi.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="info-body">
-          <i style="margin-right: 10px;" class="fa-solid fa-info fa-bounce"></i> Space for section 4 & 5
-        </div>
-      </div>
-    </div>
-
-
-    </div>
-
-
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer-content">
-            <div class="footer-top">
-              Explore More Rides
-            </div>
-            <div class="footer-nav-links">
-              <div class="footer-nav-group">
-                <a href="">Ride 1</a>
-                <a href="">Ride 2</a>
-                <a href="">Ride 3</a>
-                <a href="">Ride 4</a>
-              </div>
-
-              <div class="footer-nav-group">
-                <a href="">Ride 1</a>
-                <a href="">Ride 2</a>
-                <a href="">Ride 3</a>
-                <a href="">Ride 4</a>
-              </div>
-
-              <div class="footer-nav-group">
-                <a href="">Ride 1</a>
-                <a href="">Ride 2</a>
-                <a href="">Ride 3</a>
-                <a href="">Ride 4</a>
-              </div>
-
-              <div class="footer-terms-group">
-                <div class="footer-terms-nav-group">
-                  <a href="">Help & Guest Services</a>
-                  <a href="">Site Map</a>
-                  <a href="">Terms of Use</a>
-                  <a href="">Privacy Policy</a>
-                  <a href="">Children's Online Privacy Policy</a>
-                </div>
-                  <div class="footer-copyright">
-                    © Copyright World Fair Theme Park
-                  </div>
-              </div>
-
-              <div class="footer-social">
-                <div class="footer-social-title">
-                    Reach Us
-                </div>
-                <div class="footer-social-links">
-                  <a href=""><img height="42" width="42" src="assets/icons/facebook-logo-2019.svg" alt=""></a>
-                  <a href=""><img height="42" width="42" src="assets/icons/instagram.svg" alt=""></a>
-                  <a href=""><img height="42" width="42" src="assets/icons/tiktok.svg" alt=""></a>
-                  <a href=""><img height="42" width="42" src="assets/icons/twitter.svg" alt=""></a>
-                  <a href=""><img height="42" width="42" src="assets/icons/youtube.svg" alt=""></a>
-                  <a href=""><img height="42" width="42" src="assets/icons/phone.svg" alt=""></a>
-                </div>
-              </div>
-
-            </div>
-        </div>
-      </div>
-    </footer>
-
-
-<!--
-
-    <section class="pageContent" id="jumbotron">
-      <main role="main">
-        <article>
-          <h2 class="jumbotron-position" id="jumbotron-subtitle">
-            Subtitle H2
-          </h2>
-          <img
-            id="jumbotron-image"
-            src="assets/images/main/jumbotron/observatory-wheel.png"
-          />
-          <nav class="jumbotron-position" id="jumbotron-navigation">
-            <ul>
-              <li class="dot" onclick="changeImage('observation-wheel')"></li>
-              <li class="dot" onclick="changeImage('observatory-wheel')"></li>
-              <li class="dot" onclick="changeImage('spinning-carousel')"></li>
-              <li class="dot" onclick="changeImage('yoyo-carousel')"></li>
-            </ul>
-          </nav>
-        </article>
-      </main>
-      <aside class="main-navigation">
-        <a href="events.html"><div>Tickets</div></a>
-        <a href="bookings.html"><div>Attractios/Things to do</div></a>
-        <a href="shops.html"><div>About</div></a>
-        <a href="about.html"><div>ParkMap</div></a>
-      </aside>
-    </section>
-    <section class="page-content">
-      <main role="main" id="events">
-        <a href="events/boston-skyline-fireworks.html">
-          <article class="event">
-            <img src="assets/images/main/events/boston-skyline-fireworks.jpg" />
-            <h2>attractions</h2>
-            <p>
-             About Atraction
-            </p>
-          </article>
-        </a>
-
-        <a href="events/concert-audience-stage-performance.html">
-          <article class="event">
-            <img
-              src="assets/images/main/events/concert-audience-stage-performance.jpg"
-            />
-            <h2>Accomodations</h2>
-            <p>
-              About accomodations
-            </p>
-          </article>
-        </a>
-
-        <a href="events/event-reff.html">
-          <article class="event">
-            <img src="assets/images/main/events/event-reff.jpg" />
-            <h2>Food</h2>
-            <p>
-              about food
-            </p>
-          </article>
-        </a>
-
-      </main>
-    </section>
-    <footer>
-      <div class="column">
-        <nav id="footer-navigation">
-          <ul>
-            <li><a href="contact-us.html">Contact us</a></li>
-            <li><a href="help.html">Help</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="column">
-        <div class="social-menu">
-          <ul>
-            <li>
-              <a href="https://youtube.com/" target="blank"
-                ><img src="assets/icons/YouTub.png"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/" target="blank"
-                ><img src="assets/icons/Instagram.png"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/" target="blank"
-                ><img src="assets/icons/Facebook.png"
-              /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <div id="logo"><img src="assets/images/main/logo.png" /></div>
-        <p>
-          &copy; 2023 Amusiland Theme Park. <br />
-          All rights reserved. 2023
-        </p>
-      </div>
-    </footer>
--->
-
-
-    <script src="assets/js/main.js"></script>
-    <script>
-      ImagesJumbo();
-    </script>
-  </body>
+        
+    </body>
 </html>
